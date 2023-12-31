@@ -62,3 +62,26 @@
 .podarok-text {
   font-size: 36px;
 }
+
+.popup_false {
+  font-size: 24px;
+  background-color: #f02850;
+  width: 220px;
+  background-color: #ffffff;
+  padding: 12px 8px;
+  border-radius: 10px;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+  opacity: 0;
+  -webkit-transform: translate(0px, -120px);
+          transform: translate(0px, -120px);
+}
+.popup_false .popup.open .popup__content {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 0.4;
+}
+
+#scrin-img {
+  height: 300px;
+}
